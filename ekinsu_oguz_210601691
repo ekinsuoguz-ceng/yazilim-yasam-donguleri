@@ -1,1 +1,76 @@
 
+Ekinsu Oğuz
+210601691
+YAZILIM YAŞAM DÖNGÜSÜ VE MODELLERİ
+Yazılım Yaşam Döngüsü
+Yazılım yaşam döngüsü (SDLC), bir yazılımın gelişme sürecinden başlayıp bitim sürecine kadar kullandığımız adımlar bütünüdür. Yazılım yaşam döngüsü 5 aşamadan oluşur. Bu aşamalar sırasıyla şunlardır planlama, analiz(çözümleme), tasarım, gerçekleştirme, bakım. Bu aşamaları sadece birer kez kullanmak zorunda değiliz, tek yönlü bir döngü değildir. Bu döngü içerisinde herhangi bir adımdan önceki adımlara dönmemiz mümkündür. Eğer projelerimizi bu döngüyü takip ederek yaparsak yazılımda oluşacak hataları en aza indirmiş oluruz.  
+•	Planlama: Döngünün ilk aşamasıdır. Bu adımda müşteriyle iletişime geçilip istekleri ve ihtiyaçları belirlenir. Daha sonra proje için ihtiyaç duyulan personeller belirlenir.
+•	Analiz: İlk aşama sayesinde çıkardığımız gereksinimleri analiz ederek sorunları tespit ettiğimiz aşamadır.
+•	Tasarım: Analiz aşaması sonrasında ortaya çıkan gereksinimler baz alınarak yazılımın temel tasarımının oluşturulmasıdır. Tasarımlar ikiye ayrılır. Bunlar mantıksal ve fiziksel tasarımdır.
+•	Gerçekleştirme: Sistem tasarımı bittikten sonra gerçekleştirme aşaması başlar. Bu aşamada kodlar yazılmaya başlar. Bu aşama test etme kısmını da barındırır. Yazılan kodu erkenden test ederek karışımıza çıkacak olası hataları düzletmemiz daha hızlı olur. Bu sayede zamandan ve paradan tasarruf etmiş oluruz. Daha sonra ürün müşteriye sunulur.
+•	Bakım: Bakımın asıl amacı oluşan ve oluşacak tüm hataları düzeltmektir. Zaman ilerledikçe programın ihtiyaç duyduğu özellikler artmaktadır ve bu aşamada zaman içerisinde yeniliğe ihtiyaç duyan kod üzerinde gerekli yenilikler yapılır.
+Yazılım Yaşam Döngü Modelleri
+Yazılım yaşam döngülerinden en iyi sonucu alabilmemiz için yazılım yaşam döngü modelleri kullanılır. Bu modeller yazılımda bizlere yol gösterici olurlar. Modellerin ortaya çıkmasında o dönemin yazılım ve donanım gelişmişlikleri rol almıştır. Yazılım yaşam döngüsünde birden fazla döngü modeli vardır. Birden fazla olmasının temel nedeni ise yazılımı kullanacak kişilerin ve yazılımın büyüklüklerinin değişmesidir. Yazılım yaşam döngü modelleri şunlardır Gelişigüzel Model, Barok Modeli, Şelale (Waterfall) modeli, V Modeli (V- shaped Model), Helezonik (Spiral) Model, Artırımsal Geliştirme Modeli (Incremental Development), Kodla ve Düzelt (Code and Fix), Çevik Yazılım Geliştirme Süreci (Agile Programming). Bunlarla birlikte yazılım yaşam döngü modeli olmamasına rağmen yazılım geliştirirken kullanılan yöntemler vardır. Bunlar Uç Programlama (Extreme Programing — XP) ve Scrum’dur.
+Gelişigüzel Model: Adından da anlaşıldığı üzere gelişigüzel modelleme herhangi bir yönteme ve modele bağlı değildir. Kişisel bir yöntem olarak kullanılır. Kişiye özel değişebilir ve tekrarlanabilir. Genel olarak basit yazılımlarda ve bireysel çalışmalarda kullanılan bir yöntemdir. 1960’lı yıllarda kullanılmıştır.
+Barok Modeli: Barok modeli 1970’li yıllarda kullanılmaya başlamıştır. Günümüzde çok fazla kullanılmaya bir yöntemdir. Bunun nedenlerinde biri ise döngü yerine doğrusal bir ilerleyiş izlemesidir. Günümüzde kullanılmamasının en büyük nedeni ise belgeleme adımı ayrı bir süreç gibi ele alır ve gerçekleştirme adımına daha fazla ağırlık veren bir modeldir. Günümüzdeki modellemelerde böyle değildir. 
+Şelale (Waterfall) Modeli: Geçmişte en çok kullanılan, en popüler ve en temel modeldir. Tekrar üzerine odaklanan bir döngüdür. Eskiden çok popüler olsa da günümüzde kullanımı azalmaya başlamıştır. Barok modelinin aksine belgeleme adımını ayrı bir süreç olarak ele almaz. Bu modelde bir aşama bitmeden sonraki aşamaya geçilmez. Bu tekrar döngüleri proje süresini uzatabilir. Bu yüzden az vakit alacak ve rutin projelerde kullanılması daha iyi sonuçlar verecektir. Bu modelin aşamaları şunlardır: Gereksinimlerin tanımlanması, sistem tasarımı, gerçekleştirme, sistem testi ve bakımdır.
+•	Gereksinim Tanımlama: Ürünün işlevselliği nedir? Müşteri neler istiyor?
+•	Sistem ve Yazılım Tasarımı: Ürün müşterinin istediği işlevi nasıl sağlayacak?
+•	Gerçekleştirme ve Birim Test: Ürünün tasarımı gösterecek şekilde yazılımı yapıldı mı?
+•	Birleştirme ve Sistem Testi: Ürün, müşterinin istediklerini karşılıyor mu?
+•	İşlem ve Bakım: Müşteri memnun oldu mu?
+V Modeli (V- Shaped Model): V modeli çağlayan modelinin gelişmişi olarak düşünebiliriz. İsminden de anlaşıldığı üzere v şeklindedir. V harfinin sol tarafı üretimi, sağ tarafı ise sınama işlemlerini temsil eder. V modelinin 3 tane temel çıktısı vardır. Bunlar kullanıcı modeli, mimari model ve gerçekleştirim modelidir.
+•	Kullanıcı Modeli: Geliştirme sürecinin kullanıcıyla olan ilişkilerini tanımlar.
+•	Mimari Model: Sistem tasarımı ve oluşacak alt sistem ile tüm sistemin sınama işlemlerine ilişkin işlevler.
+•	Gerçekleştirim Modeli: Yazılım modüllerinin kodlanması ve sınanmasına ilişkin fonksiyonlar.
+Belirsizliklerin az olduğu ve iş tanımların belirgin olduğu Bilgi Teknolojileri projeleri için kullanıma uygundur. V modeli kullanıcının projeye olan katkısını arttırmaktadır. Tek bir yöne doğru ilerleyen yapısından Barok modeliyle benzerlik gösterir. BT projesinin iki aşamalı ihale edilmesi için uygundur. İlk ihalede kullanıcı modeli belirlenerek iş analizi yapılmaktadır. İkinci ihalede ise ilk ihalede elde edilen kullanıcı modeli tasarlanmaktadır. 
+Helezonik (Spiral) Model: Helezonik model ilk olarak 1988 yılında kullanılmıştır. Şelale modelinden farkı ise iteratif bir model olmasıdır. Bu model iteratif bir süreçle yürütüldüğünü gösteren ilk modeldir fakat ilk iteratif model değildir. Helezonik modeli diğerlerinden ayıran en önemli özelliklerden birisi risk analizinin ön planda olmasıdır. Risk analizinin ön planda olmasının avantajı oluşan hataları erken bulup, düzeltilmesidir. Diğer avantajlarından biri ise prototip oluşturmasının her aşamada olmasıdır. Helezonik modelin yönetimi karmaşık olduğu için küçük veya düşük riskli projeler için uygun değildir ve bu projeler için fazla maliyetli olabilir. 
+ Bu model 4 aşamadan oluşur. Bu aşamalar planlama, risk analizi, üretim ve kullanıcı değerlendirmesidir.
+
+•	Planlama: Bütün aşamalarda ürün için planlama yapılır.
+•	Risk Analizi: Riskler araştırılır, belirlenir ve çözülür.
+•	Üretim: Ürün üretilir.
+•	Kullanıcı Değerlendirmesi: Üretilen ürünün sonucunda kullanıcıdan alınan geri dönüşler değerlendirilir.
+Artırımsal Geliştirme Modeli (Incremental Development): Artırımsal geliştirme modelinde gereksinimler çok önemlidir. Ürün kullanıcı gereksinimlerine göre parçalara bölünür ve her parçada yeni özellikler eklenerek devam edilir, bu yönteme Divide and Conquer ( Böl ve Yönet) adı verilir. Bu yöntem projeyi daha kolay takip edilebilirliğini kolaylaştırdığı için oluşacak problemlerin analizi daha kolay ve daha maliyetsiz olur.  Ürün kullanılmaya başlamışken bir yandan da gelişimi de devam etmektedir, bu sayede ürünün işlevselliği erken aşamalarda oluşmaya başlar. Uzun zaman alan ve eksikliklere rağmen çalışılabilecek projelerde kullanılması daha uygundur. Genelde projenin başarısız olma olasılığı çok düşüktür. 
+Kodla ve Düzelt (Code and Fix) Yaşam Döngü Modeli: Kodla ve düzelt modeli herhangi bir kurala ya da metoda bağlı değildir. Herhangi bir planlama aşaması olmadığı için süreç çok hızlı ilerler ve sonuca çabuk ulaşılır. Bu modelin bakım ve emeklilik safhaları vardır. Bakım safhasında sisteme ait belgelene olmadığı için bu safha oldukça zordur. Profesyonel bir yöntem olmadığı için çoğu kişi bu modeli kullanabilir. Fakat projenin ne zaman biteceği belli olmadığı için yüksek maliyetler ve bazı sorunların oluşma ihtimali çok yüksektir. Bu yüzden kişisel, kısa ömürlü ve kısa kodlu küçük projelerde kullanılması daha uygundur. 
+Çevik Yazılım Geliştirme Süreci (Agile Programming): Çevik yazılım geliştirme, bir grup mühendisin başarısız olan projelerinin başarılı hale getirmek için çözüm arayışına girmeleri üzerine doğmuştur. Çevik yazılımın 4 temel değeri ve birden fazla ilkeleri vardır. Çevik yazılım modelleri süreç ve belgeleme yerine yazılıma odaklanmaktadır. Plana bağlı kalmak yerine değişimle birlikte hareket eder. Bu yöntem projeyi küçük parçalara ayırarak zamandan ve paradan tasarruf eder. Çalışanlar ve aralarındaki iletişim süreçten ve belgelerden daha önemlidir bu sayede çalışanların iletişimi ve moralleri yüksek olur. Uç Programlama (Extreme Programing — XP) ve Scrum, çevik yazılım geliştirme modellerinin en popülerlerindendir.
+1.	Uç Programlama (Extreme Programing — XP): Çevik yazılım geliştirme sürecinin en popüleri olarak bilinir. 1966 yılında Kent Beck ve arkadaşları tarafından kurulmuştur ve 1999 yılında Kent Beck yayınladığı kitapla bu yöntemi insanlara göstermiştir. Takım çalışması ön plandadır. Uç programlamanın en önemli özelliklerinde birisi geri dönüşümlerin çok fazla olmasıdır. Bu sayede proje sürekli gelişim göstermektedir. Uç programlama 12 tane pratik yönteme sahiptir. Bunlar planlama oyunu, ekipte müşteri, önce test, basit tasarım, çiftli programlama, sürekli entegrasyon, kısa aralıklı sürümler, yeniden yapılandırma, ortak kod sahiplendirme, metafor, kodlama standardı, haftada 40 saat.  Uç programlama 4 tane temel maddeden oluşur. Bunlar iletişim, basitlik, geri bildirim, cesarettir. 
+•	İletişim ( Communacition): Ekipçe çalışılan proje çalışmalarında sıklıkla karşılaşılan bir sorundur. Uç programla bu sorunu ortadan kaldırmaya odaklanır. Projenin başarılı bir sonuca ulaşması için ekip içi iletişimin iyi, yüz yüze ve sorunsuz olması gereklidir. 
+•	Basitlik (Simplicity): Yapılan projede yazılan her bir kodun basit, sade ve anlaşılır olmasını hedefler. Sadelik uç programlamanın en temel özelliğidir. Karmaşıklık oluşan yerleri ortadan kaldırmaya çalışan bir yöntemdir. Projeye eklenen her yeni özellik projenin ihtiyacı olduğu için eklenir, gereksiz hiçbir şeyin eklenmemesine özen gösterilir. 
+•	Geri Bildirim (Feedback): Geri bildirim, Ekstrem Programlamanın (XP) en önemli aşamalarından biridir ve kolay uygulanan bir aşamadır. Müşteri ve ekip çalışanları birbirleriyle sürekli iletişim halinde olurlar. Ürün tasarımı ve yazılımı hakkında bilgi toplar ve gerekli olan değişiklikleri düzelterek ürünü daha kullanılabilir, sade ve etkili hale getirmeye çalışır.
+•	Cesaret (Bravery): Proje yapılırken ekip çalışanlarının ve müşterinin cesur olması gereklidir. Gereksiz şeyleri bırakma ve bunlar yerine yeni şeyler denemek için cesarete ihtiyacımız vardır. Geri bildirim aşamasından sonra projede değişiklikler yapabilmek içinde cesarete ihtiyacımız vardır. Bir işe başlarken yazdığımız kodun tamamını silip baştan başlayıp geliştirme cesaretimizin olması gereklidir.
+2.	Scrum: Jeff Sutjerland ve Ken Schaweber tarafından 1990’larda geliştirilmeye başlanan çevik yazılım geliştirme süreçlerinden birisidir. Karmaşık olan yazılımları küçük parçacıklara ayırarak bu parçacıkları teker teker geliştirir. Bu bölünen parçacıklara “sprint” adı verilir. Bu yüzden bu metot genellikle kompleks projeler yapılırken tercih edilir. 30 günü aşmayacak şekilde günde 15 dakikalık toplantılar yapılarak daha verimli hale getirilir. Scrum metodunun projelerde yapılan bütün değişikliklere ve gelişmelere uyum sağlaması gereklidir. Müşteriden alınan geri bildirimlere göre değişiklikler yapılır bu yüzden müşteri iletişimi ve ekip çalışması çok önemli bir yere sahiptir. Scrum metodunda 3 tane temel kavram vardır. Bunlar roller, toplantılar, araçlar/bileşenlerdir.
+•	Roller: Scrum sürecinde asıl işi yapan kişilerdir. Bunlar ürün sahibi, scrum yöneticisi ve scrum takımıdır. 
+o	Ürün Sahibi: Ekip ile müşteri arasındaki iletişimden sorumludur. Müşteriden proje hakkında geri dönüşler alır. Sprint’i iptal etme yetkisine sahiptir. 
+o	Scrum Yönetcisi: Scrum kurallarından ve takımın bu kurallara uymasını sağlamakta görevli olan kişilerdir. Takımın lideri ya da yöneticisi değildir, takımı rahatsız eden durumları ortadan kaldırarak daha verimli çalışmasını sağlayan insanlardır.
+o	Scrum Takımı: Scrum takımı 5-7 kişilik bir ekipten oluşur. Projenin geliştirilmesiyle ilgilenen ekiptir. Kendilerine görevlerin verilmesini beklemezler, kendi görevlerini kendileri alır ve geliştirirler. Takımdaki kişilerin sadece bir tane görevi yoktur, çapraz görev dağılımı yaparlar. 
+•	Toplantılar: Toplantılar, Scrum metodunun yapı taşı olarak düşünebiliriz. 
+o	Sprint Planlama Toplantısı: Sprint ile yapılacak çalışmalar planlar bu toplantıda planlanır. Scrum takımındaki her bir insana küçük görevler verilir. Risk değerlendirilmeleri yapılır ve maliyet hesaplanır.
+o	Günlük Scrum (Daily Scrum): Her gün yapılan ve günlük 15 dakikadan oluşan toplantılardır. Bu toplantı önümüzdeki 24 saatte neler yapılacağını belirlemek için yapılır, amacı karmaşıklıkları azaltmaktır. Bu toplantılarda, üyeler; bugüne kadar projede neler tamamlandı? Diğer toplantıda neler yapılacak? Çalışmamı engelleyen problemler nelerdir? gibi sorulara cevap ararlar. Daily scrum ne olursa olsun her gün yapılmaya çalışılır. Takımdaki insanlardan herhangi birinin toplantıya geç gelmesi veya gelmemesi bu toplantıyı etkilemez.
+o	Sprint İnceleme: Bütün sprintlerin sonunda sprint inceleme yapılır. Amacı ürünün, müşterinin isteği şekilde gelişmesini sağlamaktır. Eğer üründe bir hata varsa bu hata düzeltilir.
+•	Araçlar/Bileşenler: Ürün gereksinim dokümanı, sprint dokümanı ve sprint kalan zaman grafiği oluşturulur. Ürün gereksinimi dokümanında proje bitene kadar olan süreçte yapılması gereken görevler vardır. Bu dokümanın kullanışlı olabilmesi için sürekli bakım yapılmalıdır. Sprint dokümanı, her bir sprintin ürün gereksinim dokümanına uygun ayarlanmasıdır ve sprint dokümanını sadece takım çalışanları değiştirebilir. Sprint kalan zaman grafiği ise sprint boyunca yapılan iş ile yapılması planlanan iş ile karşılaştırılabilmesini sağlayan grafiktir.
+Hangi Projede Hangi Model Kullanılmalıdır?
+	Gelişigüzel model genel olarak basit yazılımlarda ve bireysel çalışmalarda kullanılanılır
+	Şelale modeli az vakit alacak ve rutin projelerde kullanılır.
+	V model büyük projeler için daha uygundur.
+	Helezonik model küçük veya düşük riskli projeler için uygun değildir.
+	Artırımsal geliştirme modeli güncel tutulması gerekilen projeler için daha uygundur.
+	Kodla ve düzelt kişisel, kısa ömürlü ve kısa kodlu küçük projelerde kullanılır.
+	Çevik model büyük şirketlerin kompleks projelerinde kullanılır.
+
+KAYNAKLAR:
+https://medium.com/@tunaytoksoz/yazilim-ya%C5%9Fam-d%C3%B6ng%C3%BCs%C3%BC-sdlc-ve-modelleri%CC%87-c3fe40f6e4e8
+https://medium.com/@denizkilinc/yaz%C4%B1l%C4%B1m-ya%C5%9Fam-d%C3%B6ng%C3%BCs%C3%BC-temel-a%C5%9Famalar%C4%B1-software-development-life-cycle-core-processes-197a4b503696
+https://akademi.bilgeadam.com/scrum-nedir/?gclid=EAIaIQobChMIk9SQhqnT9gIVCI1oCR3ElwELEAAYAiAAEgItJPD_BwE
+https://fikirjeneratoru.com/yazilim-proje-yonetimi-yontemleri/
+https://zeynepaygun.wordpress.com/2017/05/29/what-is-sdlc-sdlc-nedir/
+https://www.codex.com.tr/yazilim-gelistirme-modelleri
+https://medium.com/@omerharuncetin/yaz%C4%B1l%C4%B1m-ya%C5%9Fam-d%C3%B6ng%C3%BC-modelleri-543c7879a742
+https://medium.com/@secilcor/scrum-nedi%CC%87r-6a4326951dd8
+ Doç. Dr. Deniz KILINÇ, Bakırçay Üniversitesi Yazılım Mühendisliği Temelleri Dersi 3. ve 4. Hafta Sunumları
+
+Kişisel Hesaplar:
+•	Linkedin: https://www.linkedin.com/in/ekinsu-o%C4%9Fuz-0b546322a/
+•	Github: https://github.com/ekinsuoguz-ceng
+•	Medium:  https://medium.com/@ekinsuoguz2001
+
